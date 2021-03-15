@@ -1,0 +1,234 @@
+html {
+    overflow-y: scroll;
+    background: linear-gradient(to bottom right, #666666, #E6E6E6);
+    font-family: 'Roboto Slab', serif;
+}
+
+body {
+    background-color: #E6E6E6;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+a {
+
+}
+
+a:hover {
+
+}
+
+header {
+    width: 1000px;
+    height: 300px;
+    background-color: #fff;
+    text-align: center;
+}
+header img {
+  height: 100%;
+}
+
+.small_header {
+    height: 100px;
+}
+
+.navbar {
+    padding: 0.5em;
+    background-color: #404040;
+    border-top: 3px solid #666666;
+    border-bottom: 3px solid #666666;
+    margin-bottom: 10px;
+
+}
+
+.navbar a {
+
+    display: inline-block;
+    padding: 0.5em 1em;
+    margin-right: 0.5em;
+    border: 1px solid #999;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+main {
+    min-height: 30em;
+}
+
+footer {
+    width: 1000px;
+    height: 70px;
+    background-color: #919191;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+
+}
+
+.row {
+  height: 300px;
+  padding: 1em;
+  text-align: center;
+}
+
+.books {
+    display: flex;
+    text-align: center;
+
+}
+
+.bookrow {
+    display: block;
+    margin: 5px;
+}
+
+.book {
+    background-color: #666666;
+    display: block;
+    margin: 10px;
+    width: 300px;
+    height: 460px;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid #545454;
+}
+
+.book h3 {
+  margin: 10px;
+}
+
+.book p {
+  margin: 8px;
+}
+
+.book_cover {
+    width: 200px;
+    margin-top: 15px;
+    border: 2px solid #919191;
+    border-radius: 2px;
+}
+
+
+.sound img{
+    background-color: #E6E6E6;
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.button_pink {
+    background-color: #D94E73;
+}
+
+.button_green {
+    background-color: #8CBF1F;
+}
+
+.button_darkblue {
+    background-color: #0E43E3;
+}
+
+.button_orange {
+    background-color: #F19733;
+}
+
+.button_lightblue {
+    background-color: #4BB7F2;
+}
+
+.button_yellow {
+    background-color: #F1E52E;
+}
+
+.button_purple {
+    background-color: #822862;
+}
+
+.selected {
+    background-color: #AE2C23;
+}
+
+
+/* Kontaktformuläret */
+legend {
+    font-size: 24px;
+}
+
+input[type=text] {
+    width: 100%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    padding: 12px 20px;
+}
+
+input[type=submit] {
+    width: 200px;
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+select {
+    width: 30%;
+    margin: 8px 0;
+    padding: 3px 4px;
+    display: block;
+}
+
+textarea {
+    display: block;
+    margin: 12px 0;
+    width: 30%;
+    height: 75px;
+}
+
+
+
+
+/**
+ * responsive
+ *Den säger att om bredden på webbläsaren är mindre än 980 pixlar så skall CSS-konstruktionen som följer gälla.
+ */
+@media (max-width: 980px) {
+    body {
+        width: auto;
+
+    }
+
+    .navbar a {
+        border-radius: 1px;
+        display: block;
+    }
+
+    header {
+        text-align: left;
+    }
+
+    header img {
+      height: 80%;
+    }
+
+    .books {
+        text-align: center;
+
+    }
+
+    .bookrow {
+        text-align: center;
+    }
+
+    .book {
+        display: block;
+    }
+
+}
